@@ -1,7 +1,7 @@
-package creational.factory.method;
+package creational.factory.method.classwork;
 
 public abstract class Restaurant {
-    public Burger orderBurger(String request){
+    public Burger orderBurger(){
         Burger burger = createBurger();
         burger.prepare();
         return burger;

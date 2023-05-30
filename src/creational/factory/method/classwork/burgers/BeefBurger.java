@@ -1,6 +1,6 @@
-package creational.factory.method.burgers;
+package creational.factory.method.classwork.burgers;
 
-import creational.factory.method.Burger;
+import creational.factory.method.classwork.Burger;
 
 public class BeefBurger implements Burger {
     @Override

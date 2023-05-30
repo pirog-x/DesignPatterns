@@ -1,7 +1,7 @@
-package creational.factory.method;
+package creational.factory.method.classwork;
 
-import creational.factory.method.burgers.BeefBurger;
-import creational.factory.method.burgers.VeggieBurger;
+import creational.factory.method.classwork.burgers.BeefBurger;
+import creational.factory.method.classwork.burgers.VeggieBurger;
 
 public class SimpleBurgerFactory {
     public Burger createBurger(String request) {

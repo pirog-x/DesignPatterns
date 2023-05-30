@@ -1,6 +1,6 @@
-package creational.factory.method;
+package creational.factory.method.classwork;
 
-import creational.factory.method.burgers.BeefBurger;
+import creational.factory.method.classwork.burgers.BeefBurger;
 
 public class BeefBurgerRestaurant extends Restaurant {
     @Override

@@ -1,5 +1,5 @@
-package creational.factory.method;
+package creational.factory.method.classwork;
 
 public interface Burger {
-    public abstract void prepare();
+    void prepare();
 }
