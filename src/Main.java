@@ -1,10 +1,12 @@
-import creational.factory.method.homework.Pizza;
-import creational.factory.method.homework.PizzaFactory;
-import creational.factory.method.homework.VeggiePizzaFactory;
+import creational.abstractfactory.homework.restaurant.Restaurant;
+import creational.abstractfactory.homework.restaurant.american.burger.AmericanBurgerRestaurant;
+import creational.abstractfactory.homework.restaurant.burger.BeefBurger;
+import creational.abstractfactory.homework.restaurant.burger.VeggieBurger;
 
 public class Main {
     public static void main(String[] args) {
-        PizzaFactory veggieFactory = new VeggiePizzaFactory();
-        Pizza veggiePizza = veggieFactory.createPizza();
+        Restaurant americanBurgerRestaurant = new AmericanBurgerRestaurant();
+        BeefBurger americanBeefBurg = americanBurgerRestaurant.orderBeefBurger();
+        VeggieBurger americanVeggieBurger = americanBurgerRestaurant.orderVeggieBurger();
     }
 }
