@@ -62,4 +62,15 @@ public class Pizza {
             return new Pizza(size, crustType, sauceType, cheeseType, topping);
         }
     }
+
+    @Override
+    public String toString() {
+        return "Pizza{" +
+                "size=" + size +
+                ", crustType='" + crustType + '\'' +
+                ", sauceType='" + sauceType + '\'' +
+                ", cheeseType='" + cheeseType + '\'' +
+                ", topping='" + topping + '\'' +
+                '}';
+    }
 }
