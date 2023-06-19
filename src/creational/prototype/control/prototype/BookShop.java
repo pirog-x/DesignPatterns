@@ -1,7 +1,6 @@
 package creational.prototype.control.prototype;
 
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.List;
 
 public class BookShop implements Cloneable {
