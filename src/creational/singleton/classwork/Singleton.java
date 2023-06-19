@@ -2,7 +2,7 @@ package creational.singleton.classwork;
 
 public class Singleton {
     private static volatile Singleton instance;
-    private String data;
+    private final String data;
 
     private Singleton(String data) {
         this.data = data;
