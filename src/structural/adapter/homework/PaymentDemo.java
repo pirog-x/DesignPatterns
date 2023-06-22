@@ -2,6 +2,8 @@ package structural.adapter.homework;
 
 import structural.adapter.homework.adapter.NewPaymentGatewayAdapter;
 import structural.adapter.homework.service.PaymentGateway;
+import structural.adapter.homework.service.impl.NewPaymentGatewayService;
+import structural.adapter.homework.service.impl.PaymentGatewayService;
 
 public class PaymentDemo {
     public static void main(String[] args) {

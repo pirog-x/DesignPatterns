@@ -1,4 +1,4 @@
-package structural.adapter.homework;
+package structural.adapter.homework.service.impl;
 
 import structural.adapter.homework.service.NewPaymentGateway;
 
