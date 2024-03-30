@@ -1,4 +1,4 @@
-package creational.abstractfactory.classwork;
+package creational.abstractfactory.classwork.companies;
 
 import creational.abstractfactory.classwork.gpu.Gpu;
 import creational.abstractfactory.classwork.monitor.Monitor;
